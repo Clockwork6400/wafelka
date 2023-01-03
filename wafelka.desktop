@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=wafelka
+Comment=WI-FI Switcher
+Keywords=
+Exec=wafelka
+Terminal=false
+Type=Application
+#Icon=
+Categories=net
