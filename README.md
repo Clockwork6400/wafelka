@@ -1,30 +1,5 @@
 
-# FreeBSD Ports
-#Установка / Installation:
-
->  pkg install net/wafelka
-> 
-or / или
-
-> cd /usr/ports/net/wafelka
-> make install clean 
-
-#Запуск / Launch:
-
-> wafelka
-
-or / или
-mouse from the menu
-
-#Удаление / Removal:
-
-> pkg remove net/wafelka
-> 
-or / или
-> cd /usr/ports/net/wafelka
-> make deinstall
-
-## Github
+# 
 #Установка / Installation:
 
 (зависимости / dependencies):
