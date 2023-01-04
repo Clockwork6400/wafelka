@@ -1,7 +1,7 @@
 #!/usr/local/bin/wish8.6
 
 #
-# Copyright (c) 2022, Clockwork
+# Copyright (c) 2023, Clockwork
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
