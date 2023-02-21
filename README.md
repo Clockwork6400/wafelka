@@ -3,11 +3,11 @@
 #Installation:
 
 (dependencies):
-> sudo pkg install tcl86 tk86
+> pkg install tcl86 tk86
 
-> sudo mkdir -p /opt/wafelka
+> mkdir -p /opt/wafelka
 
-> sudo chown -R $USER /opt/
+> chown -R $USER /opt/wafelka
 
 > cd /opt/
 
