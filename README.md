@@ -1,8 +1,8 @@
 
 # 
-#Установка / Installation:
+#Installation:
 
-(зависимости / dependencies):
+(dependencies):
 > sudo pkg install tcl86 tk86
 
 > sudo mkdir -p /opt/wafelka
@@ -16,14 +16,14 @@
 > cp wafelka/wafelka.desktop /usr/local/share/applications/wafelka.desktop
 
 
-#Запуск / Launch:
+#Launch:
 
 > /usr/local/bin/wish8.6 /opt/wafelka/wafelka.tcl
 > 
-or / или
+or
 > mouse from the menu
 
-#Удаление / Removal:
+#Removal:
 
 > rm /usr/local/share/applications/wafelka.desktop
 
@@ -31,13 +31,13 @@ or / или
 
 ---
 
-wafelka - программа для быстрой настройки и переключения wi-fi, которая поможет подключиться к сети с минимальными усилиями. Если wi-fi не был настроен по соответствующей документации на handbook, то программа попытается выполнить настройку.
+wafelka is a program for quick wi-fi setup and switching that will help you connect to the network with minimal effort. If wi-fi has not been configured according to the relevant documentation for the handbook, then the program will try to configure it.
 
-Кнопки в программе соответствуют всем доступным SSID/MESH на момент запуска программы. Нажатие кнопки выбирает сеть, к которой будет подключение. Чекбокс "more" позволяет показать
-больше доступных сетей. 
+The buttons in the program correspond to all available SSID/MESH at the time the program is launched. Pressing the button selects the network to connect to. The "more" checkbox allows you to show
+more networks available.
 
-После выбора нужной сети будет предложено ввести пароль два раза от точки доступа. 
-Введенный пароль и логин будут сохранены в /etc/wpa_supplicant.conf и перезапущен сервис.
+After selecting the desired network, you will be prompted to enter the password twice from the access point.
+The entered password and login will be saved in /etc/wpa_supplicant.conf and the service will be restarted.
 
 ---
 
