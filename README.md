@@ -41,4 +41,12 @@ The entered password and login will be saved in /etc/wpa_supplicant.conf and the
 
 ---
 
+# Status 
+The project has been put on hold.\
+(https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=269345) 
+The program is not ready to be sent to ports, for the following reasons :
+* The program does not work for wayland.
+* It seems to me that there is no point in this, because everything is done on behalf of the root.
+---
+
 EOF.
